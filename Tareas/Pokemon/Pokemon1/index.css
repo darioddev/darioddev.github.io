@@ -1,0 +1,68 @@
+/* Estilo general de fondo oscuro */
+body {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh; /* Asegura que el cuerpo ocupe al menos la altura de la ventana */
+}
+
+/* Estilo del formulario */
+#formulario {
+  text-align: center;
+  padding: 20px;
+}
+
+#pokemon {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  border: 2px solid #3498db;
+  padding: 10px 20px; /* Aumenta el padding para hacerlo más grande */
+  margin-right: 10px;
+  font-size: 16px; /* Cambia el tamaño de fuente si es necesario */
+}
+
+input[type="submit"] {
+  background-color: #3498db;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px; /* Aumenta el padding para hacerlo más grande */
+  cursor: pointer;
+  font-size: 16px; /* Cambia el tamaño de fuente si es necesario */
+}
+
+/* Estilo del contenedor de la lista */
+#contenedorPokemon,
+#imagenPokemon {
+  text-align: center;
+  margin: 20px auto;
+  border: 2px solid #3498db;
+  padding: 10px;
+  width: 50%;
+  background-color: #1e1e1e;
+}
+
+/* Estilo de la lista */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  font-size: 30px;
+}
+
+/* Estilo del logotipo */
+header {
+  text-align: center;
+  margin-top: 20px; /* Espacio superior para separar el logotipo del contenido */
+}
+
+header img {
+  display: block;
+  height: 300px;
+}
