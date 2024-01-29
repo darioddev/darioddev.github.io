@@ -6,7 +6,6 @@ export const control = {
       const {
         data: { results: response },
       } = pokemons;
-  
       return response;
     },
   

@@ -59,3 +59,17 @@ body {
   object-fit: cover;
   border-radius: 10px;
 }
+
+.container-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#inputNumber {
+  width: 200px;
+  padding: 10px;
+  border: 2px solid #3498db;
+  border-radius: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
